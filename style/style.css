@@ -157,20 +157,18 @@ h2 {
     position: relative;
     left: 10%;
 }
-@media screen and (max-width: 600px) {
-    *{
-        padding: 0;
-        margin: 0;
-    }
+@media (max-width: 600px) {
+
     body {
         background-image: url(./12.jpg);
         background-repeat: no-repeat;
         background-size: cover;
-        background-size: 60vh 100vh;
+        background-size: 70vh 160vh;
+        height: auto;
     }
     .image {
         position: relative;
-        top: 1200px;
+        top: 860px;
         left: 90px;
         height: 80px;
         width: auto;
@@ -178,11 +176,11 @@ h2 {
 }
 h2 {
     position: relative;
-    top: 1210px;
-    left: 80px;
+    top: 870px;
+    left: 85px;
     color: white;
    
-    font-size: 10;
+    font-size: 20px;
    
 }
 }
