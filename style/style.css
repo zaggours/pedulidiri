@@ -157,7 +157,7 @@ h2 {
     position: relative;
     left: 10%;
 }
-@media  screen and (max-width: 460px) {
+@media screen and (max-width: 600px) {
     *{
         padding: 0;
         margin: 0;
@@ -170,16 +170,16 @@ h2 {
     }
     .image {
         position: relative;
-        top: 820px;
-        left: 60px;
+        top: 1200px;
+        left: 90px;
         height: 80px;
         width: auto;
     
 }
 h2 {
     position: relative;
-    top: 830px;
-    left: 50px;
+    top: 1210px;
+    left: 80px;
     color: white;
    
     font-size: 10;
