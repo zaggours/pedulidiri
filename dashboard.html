@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dasboard</title>
+    <link rel="stylesheet" href="./assets/style1.css">
+</head>
+<body onload="alert('SELAMAT DATANG DI APLIKASI PEDULI DIRI');">
+    <div class="d-wreaper">
+        <div>
+            <img src="./image/donwload.png  " alt="smk" class="img">
+        </div>
+        <div class="right">
+            <h1 class="title">PEDULI DIRI</h1>
+            <h3 class="sub-title">Catatan Perjalanan</h3>
+            <ul class="menu-wrapper">
+                <li class="menu-item" onclick="showTab('home')">Home</li>
+                <li class="menu-item" onclick="showTab('catatan')">Catatan Perjalanan</li>
+                <li class="menu-item" onclick="showTab('isiData')">Isi Data</li>
+                <li class="menu-item" onclick="logout('logout')">Keluar</li>
+            </ul>
+            <div class="item-id hidden item jumbotron-wrapper">
+                <div class="jumbotron">
+                    <p class="description">Selamat Datang <span id="isLoggedinName"></span> di 
+                        Website Peduli Diri
+                    </p>
+                </div>
+                <button class="btn" onclick="showTab('isiData')">Isi Catatan Perjalanan</button>
+            </div>
+            <div class="item-id item table-wrapper">
+                <div class="table-header">
+                    <span class="table-header-text">Urutkan Berdasarkan</span>
+                    <select class="table-header-select" id="selectSorting">
+                        <option selected value="">Pilihan</option>
+                        <option value="tanggal">Tanggal</option>
+                        <option value="waktu">Waktu</option>
+                        <option value="lokasi">Lokasi</option>
+                        <option value="suhu">Suhu Tubuh</option>
+                    </select>
+                    <button class="button" onclick="urutkanTable()">URUTKAN</button>
+                </div>
+                <div class="table-body">
+                    <table id="dataFromApi">
+                      <!--<tr>
+                            <th>Tanggal</th>
+                            <th>Waktu</th>
+                            <th>Lokasi</th>
+                            <th>Suhu Tubuh</th>
+                        </tr>-->
+                       
+                    </table>
+                    
+                    <button onclick="showTab('isiData')">Isi Catatan Perjalanan</button>
+    
+                </div>
+            </div>
+            <div class="item-id hidden item jumbotron-wrapper">
+                <div class="jumbotron center-content">
+                    <div class="dashboard-form-wrapper">
+                        <span>Tanggal </span>
+                        <input type="date" id="tanggal" class="d-form-input"  >
+                    </div>
+                    <div class="dashboard-form-wrapper">
+                        <span>Jam </span>
+                        <input type="time" name="" class="d-form-input" id="jam" >
+                    </div>
+                    <div class="dashboard-form-wrapper">
+                        <span>Lokasi yang dikunjungi </span>
+                        <input type="text" name="" id="lokasi" class="d-form-input"  >
+                    </div>
+                    <div class="dashboard-form-wrapper">
+                        <span>Suhu tubuh </span>
+                        <input type="text" name="" id="suhu" class="d-form-input" >
+                    </div>
+                    <div class="dashboard-form-wrapper button-d-form">
+                        <button class="button btn-table" onclick="isiCatatan(event)">Simpan</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="main.js"></script>
+    <script src="script2.js"></script>
+    <script src="script3.js"></script>
+
+</body>
+</html>
