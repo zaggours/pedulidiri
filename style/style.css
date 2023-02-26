@@ -157,7 +157,7 @@ h2 {
     position: relative;
     left: 10%;
 }
-@media  screen and (max-width: 600px) {
+@media  screen and (max-width: 460px) {
     *{
         padding: 0;
         margin: 0;
@@ -166,10 +166,10 @@ h2 {
         background-image: url(./12.jpg);
         background-repeat: no-repeat;
         background-size: cover;
-        background-size: 80vh 100vh;
+        background-size: 60vh 100vh;
     }
     .image {
-        position: fixed;
+        position: absolute;
         bottom: 86px;
         left: 70px;
         height: 80px;
