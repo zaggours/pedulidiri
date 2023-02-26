@@ -157,7 +157,7 @@ h2 {
     position: relative;
     left: 10%;
 }
-@media  (max-width: 360px) {
+@media  (max-width: 720px) {
 
     body {
         background-image: url(./12.jpg);
@@ -168,7 +168,7 @@ h2 {
     }
     .image {
         position: relative;
-        top: 700px;
+        top: 780px;
         left: 90px;
         height: 80px;
         width: auto;
@@ -176,7 +176,7 @@ h2 {
 }
 h2 {
     position: relative;
-    top: 700px;
+    top: 790px;
     left: 85px;
     color: white;
    
