@@ -157,7 +157,7 @@ h2 {
     position: relative;
     left: 10%;
 }
-@media  screen and (max-width: 642px) {
+@media  screen and (max-width: 600px) {
     *{
         padding: 0;
         margin: 0;
