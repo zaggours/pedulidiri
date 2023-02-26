@@ -169,17 +169,17 @@ h2 {
         background-size: 60vh 100vh;
     }
     .image {
-        position: absolute;
-        bottom: 86px;
-        left: 70px;
+        position: relative;
+        top: 820px;
+        left: 60px;
         height: 80px;
         width: auto;
     
 }
 h2 {
-    position: absolute;
-    bottom: 40px;
-    left: 66px;
+    position: relative;
+    top: 830px;
+    left: 50px;
     color: white;
    
     font-size: 10;
