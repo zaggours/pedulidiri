@@ -160,7 +160,7 @@ h2 {
 @media only screen and (max-width: 600px) {
 
     body {
-        background-image: url(./12.jpg);
+        background-image: url(/style/12.jpg);
         background-repeat: no-repeat;
         background-size: cover;
         background-size: 70vh 160vh;
