@@ -27,7 +27,7 @@
 }
 
 body {
-    background-image: url(/image/4.jpg);
+    background-color: wheat;
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;
@@ -144,7 +144,7 @@ h2 {
     position: absolute;
     bottom: 80%;
     left: 2%;
-    color: white;
+    color: black;
    
     font-size: 10;
  
